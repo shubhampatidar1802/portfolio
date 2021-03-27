@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="pf2.css">
+    <script src="pf3.js" lang="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating menu table & logo at the top using HTML -->
+    
+    <header>
+      
+    <a href="#" class="logo">Portfolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>   
+     <!-- ul.menu>li*5>a[href=#home]{HOME} -->
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#service" onclick="toggleMenu();">service</a></li>
+        <li><a href="#Profile" onclick="toggleMenu();">Profile</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+    
+  </header>
+
+    <!-- creating Banner Layout in HTML  -->
+    <section class="banner" id="home">
+        <div class="textbox">
+            
+            <h2>Hello,I'm <br><span>Shubham Patidar</span> </h2>
+            <h3>I am a MCA student...</h3>
+            <a href="#about" class="btn">About Me</a>
+           
+        </div>
+      
+    </section>
+    
+
+  <section class="about" id="about">
+   <div class="heading">
+        <p>Get to Know</p>
+        <h2>About me</h2>
+    </div>
+    <div class="content">
+          <div class="w50">
+        <img src="img/profile.jpg" alt="profile imgage" class="profileimg">
+         </div>
+         <div class="contentbx">
+          <p>who am i??</p>
+          <h2> I am Shubham Patidar. </h2><br>
+          <p>I am a student of Birla Institute Of Technolgy Mesra (Ranchi) and I am pursuing MCA( Master of Computer Application ) and before this i am complited my bachlore course BCA(Bachlore of Compter Application) form DAVV univercity INDORE (M.P.) . </p>
+          <br>
+          <p>Now, we discuse about my vision in life so after my graduation i want to doing job in IT compant and then graps some years of knowledge from here to start my own new start up company in that area. so i hope i am doing well in futher and i get mt dreams true ... thanks </p>
+        </div>
+     </div>
+
+     <div class="heading-bottom">
+              <a href="img/subh.docx" target="blank" class="btn round">Download CV</a>
+              <div class="bt">
+                  <b>Name:</b>  Shubham Patidar <br>
+                  <b>Age: </b>  23 <br>
+                </div>
+              <div class="bt">
+                  <b>Email:</b> shubhampatidar1802@gmail.com <br>
+                  <b>Phone</b> +91-7566662151
+                </div>
+     </div>
+  </section>
+
+
+
+  <section class="services" id="service">
+    <div class="heading white">
+      <h2>Our Services</h2>
+      <p>Services i Offer to my Client</p>
+    </div>
+       <div class="content">
+
+     <div class="servicesBox">
+      <i class="fa fa-css3 fa-4x"></i>
+      <h3>Web Design css</h3>
+
+      <p>We develop a world class project using new Technolgy</p>
+     </div>
+  
+     <div class="servicesBox">
+      <i class="fa fa-html5 fa-4x"></i>
+     <h3>Computer learning</h3>
+     <p>we provids computer learning online</p>
+     </div>
+     <div class="servicesBox">
+      <i class="fa fa-android fa-4x"></i>
+    <h3>Android development</h3>
+    <p>we develop android app according  to client requirment </p>
+    </div>
+  </div>
+    <div class="content">
+    <div class="servicesBox">
+      <i class="fa fa-wordpress fa-4x"></i> 
+    <h3>Hardware products</h3>
+    <p>we also provide hardware  products  and  services .  </p>
+    </div>
+    <div class="servicesBox">
+      <i class="fa fa-cart-arrow-down fa-4x"></i>
+    <h3>Software maker</h3>
+    <p>We make a software for a Organization</p>
+    </div>
+    <div class="servicesBox">
+      <i class="fa fa-user fa-4x"></i>
+    <h3>Event planner</h3>
+    <p>Increase the happiness with better event planner.</p>
+    </div>
+  </div>
+  </section>
+
+
+  
+  <section class="profile" id="Profile">
+     <div class="heading">
+       <h2>My Coding Work Profile</h2>
+       <p>Showing Some of My CP Profile</p>
+     </div>
+     <div class="content">
+       <div class="profileBox">
+         <a href="https://www.hackerrank.com/shubhampatidar11" target="_blank">
+           <img src="img/hakerrank.jpg" alt="insta logo img">
+           <p>Click to see my Hackerrank Profile.</p>
+         </a>
+       </div>
+       <div class="profileBox">
+         <a href="https://auth.geeksforgeeks.org/user/shubhampatidar1802/practice/" target="_blank">
+           <img src="img/geeks.png" alt="">
+           <p>here my Geeksforgeeks Profile</p>
+         </a>
+       </div>
+       <div class="profileBox">
+         <a href="https://leetcode.com/shubh_patidar/" target="_blank">
+           <img src="img/leetcode.png" alt="">
+           <p>here my leetcode profile</p>
+         </a>
+       </div>
+       <div class="profileBox">
+         <a href="https://www.instagram.com/shubhampatidar1802/" target="_blank">
+           <img src="img/insta.jpg" alt="">
+           <p>Connect me on instagram</p>
+         </a>
+       </div>
+     </div>
+  </section>
+
+
+
+  <section class="contact" id="contact">
+    <div class="heading white">
+      <p>Feel free to contact me anytime</p>
+      <h2>Get in Touch</h2>
+
+    </div>
+    <div class="contant">
+      
+     
+
+      <div class="contactInfoBox">
+        
+        <div class="contactInfo">
+          <h3>Contact Info</h3>
+          <p>Always available for any type of help and also for freelance work.</p>
+  
+        </div>
+        <div class="Box">
+          <div class="icon">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <div class="text">
+             <h3>Address</h3>
+             <address>Patidar Tent House <br> Maharana Pratap Nagar,<br>rosla road(ward no.->7) <br>
+               Boda pin-465685</address>
+          </div>
+        </div>
+        <div class="Box">
+          <div class="icon">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="text">
+             <h3>Phone no.</h3>
+             <p>+91-7566662151</p>
+          </div>
+        </div>
+        <div class="Box">
+          <div class="icon">
+            <i class="fa fa-envelope-o"></i>
+          </div>
+          <div class="text">
+             <h3>Email Address</h3>
+             <p>shubhampatidar1802@gmail.com</p>
+          </div>
+        </div>
+      <br>
+        <h3>Social Connect</h3>
+         <div class="boxSocial">
+          
+           <div class="icon">
+             <a href="https://www.facebook.com/shubham.patidar.35325" target="_blank">
+              <i class="fa fa-facebook-official"></i>
+             </a>
+            </div>
+            <div class="icon">
+            <a href="https://www.instagram.com/shubhampatidar1802/" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+           
+          </div>
+          <div class="icon">
+            <a href="https://twitter.com/shubham18021997" target="_blank">
+              <i class="fa fa-twitter-square" ></i>
+            </a>
+          
+          </div>
+          <div class="icon">
+            <a href="https://www.youtube.com/channel/UCLLhJUDs4t5zoNwlbPNp5ww" target="_blank">
+              <i class="fa fa-youtube-play"></i>
+            </a>
+          </div>
+         </div>
+      </div>
+      
+      <div class="formBox">
+        <form action="ps4.php" name="contact" method="POST">
+          <h3>Message Me</h3>
+          <input type="text" placeholder="Full Name" name="txtName" id="txtName">
+          <input type="email" placeholder="Email" name="txtEmail" id="txtEmail">
+          <textarea name="txtMessage" id="txtMessage" rows="5" placeholder="Your Query"></textarea>
+          <input type="submit" value="submit" name="Submit" id="submit"  />
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="copyright">
+    <p>&copy; 2020 , Shubhampatidar1802.com, All right reserved</p>
+  </footer>
+</body>
+</html>
